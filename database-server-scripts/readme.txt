@@ -13,3 +13,5 @@ Instructions on setting up SQL Server for Tosca in BSP:
 
 5. Check the schedule-database-backup.sql script to make sure the values are correct (especially the @backup_dir). Then in Command Prompt run the schedule-database-backup.sql script:
   sqlcmd -C -i schedule-database-backup.sql
+
+ADD SCRIPT FOR THE dbowner 
